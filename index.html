@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Roger Comerma</title>
+    <meta name="description" content="Portfolio personal Roger Comerma.">
+    <meta name="keywords" content="Roger Comerma, programador, Barcelona, HTML, CSS">
+    <meta name="author" content="Roger Comerma">
+    <link rel="icon" href="img/icono-random.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="titulo">
+            <h1>Roger Comerma</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a class="menu1" href="#sobre-mi">Sobre Mí</a></li>
+                <li><a class="menu1" href="#Portfolio">Portfolio</a></li>
+                <li><a class="menu1" href="#form">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+  
+    <main>
+        <section id="hero" class="container">
+            <h2>Bienvenid@ a mi Portfolio! 😊</h2>
+            <p>Como hasta la fecha no he realizado ningún proyecto, voy a utilizar este espacio para compartir algunas fotos de mis viajes. Si quieres ser mi proxim@ compañer@ de viaje, no olvides rellenar <a href="#form">este formulario</a>.</p>
+        </section>
+  
+        <section id="sobre-mi" class="container">
+            <h2>Sobre Mí</h2>
+            <p>Mi nombre es <b>Roger</b>, un joven de Barcelona apasionado por la programación y la informática actualmente cursando el CFGS de Desarrollo de aplicaciones multiplataforma en <b>Prometeo.</b></p>
+        </section>
+  
+        <section id="Portfolio">
+                <h2 class="portfolioo">Portfolio</h2>
+                <p class="portfolioo">(De imágenes)</p>
+            
+            <div class="grid">
+                <article>
+                    <a href="https://instagram.com/rogercomerma" target="_blank">
+                        <img class="fotos" src="img/me/italia.jpg" alt="Italia">
+                    </a>
+                    <h3>Italia</h3><br>
+                    <p>Viaje en coche España > Italia.</p>
+                </article>
+                <article>
+                    <a href="https://instagram.com/rogercomerma" target="_blank">
+                        <img class="fotos" src="img/me/francia.jpg" alt="Francia">
+                    </a>
+                    <h3>Francia</h3><br>
+                    <p>Que elegancia la de francia.</p>
+                </article>
+                <article>
+                    <a href="https://instagram.com/rogercomerma" target="_blank">
+                        <img class="fotos" src="img/me/andorra.jpg" alt="Andorra">
+                    </a>
+                    <h3>Andorra</h3><br>
+                    <p>Vacaciones de invierno por Andorrita.</p>
+                </article>
+                <article>
+                    <a href="https://instagram.com/rogercomerma" target="_blank">
+                        <img class="fotos" src="img/me/noruega.jpg" alt="Noruega">
+                    </a>
+                    <h3>Noruega</h3><br>
+                    <p>Just for work...</p>
+                </article>
+            </div>
+            <br>
+        </section>
+        <div class="botonviaje">
+        <a href="#form" class="boton1">Ir de viaje!</a>
+        </div>
+        <section id="form">
+            <h2>Contacto</h2><br>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+  
+    <footer>
+        <div>
+            <a target="_blank" href="https://www.instagram.com/rogercomerma/">
+                <img class="redes" src="/img/instagram.png" alt="Instagram">
+            </a>
+            <a target="_blank" href="https://www.linkedin.com/in/roger-comerma/">
+                <img class="redes" src="/img/linkedin.png" alt="LinkedIn">
+            </a>
+            <a target="_blank" href="https://github.com/itsComerm">
+                <img class="redes" src="/img/github.png" alt="GitHub">
+            </a>
+        </div>
+        <br>
+        <p>&copy; Roger Comerma 2025 Todos los derechos reservados.</p>
+    </footer>  
+</body>
+</html>
